@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+:root {
+  --error: red;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: helvetica;
+}
+
+/* Utilitys */
+.hide {
+  display: none;
+}
+
+/* Form */
+#bg {
+  width: 100%;
+  height: 100vh;
+  background: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: white;
+  width: 30%;
+  height: auto;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.form input {
+  width: 100%;
+  height: 30px;
+  margin: 0.5rem 0.5rem 0.1rem 0.5rem;
+}
+.form label {
+  color: var(--error);
+  margin: 0.1rem 0.55rem;
+  font-size: 0.8rem;
+}
+
+.form .select-gender {
+  display: flex;
+  align-items: center;
+}
+.form .select-gender input {
+  margin: 0 1rem;
+  padding: 0;
+  width: 15px;
+}
+
+.form input[type="button"] {
+  width: 30%;
+  align-self: center;
+  background: wheat;
+  border: 1px;
+  border-radius: 15px;
+}
+
+/* uqku - dhip */
+/* uqkur -  rryp */ ;
